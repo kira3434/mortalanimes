@@ -1,0 +1,148 @@
+:root{
+    --cor-primaria:#0c0c0c;
+    --cor-secundaria:#000000;
+    --cor-destaque1:#1FD517;
+    --cor-destaque2:#000139;
+    --cor-destaque3:#d7d7d7;
+}
+@font-face {
+    font-family: 'mortal';
+    src: url(/Valorant\ Font.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+   background-color: var(--cor-primaria);
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    background-color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-between;
+}
+.logo-navbar{
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.caixa-imagem-logo{
+    width: 40%;
+    height: 1005;
+}
+.imagem-logo{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.texto-logo{
+    color: var(--cor-destaque3);
+font-family:'mortal','Courier New', Courier, monospace;
+}
+.titulo-mortal{
+    color: var(--cor-destaque1);
+}
+.icones-navbar{
+    width: 200px;
+    height: 10vh;
+    display: flex;
+}
+.caixa-youtube-navbar{
+width: 50%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.youtube-navbar{
+    width: 40px;
+    height: 40px;
+}
+.youtube-navbar img{
+    filter: invert(66%) sepia(39%) saturate(4079%) hue-rotate(73deg) brightness(101%) contrast(98%);
+}
+.caixa-menu-navbar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .menu-navbar{
+        width: 40px;
+        height: 40px;
+    }
+    .menu-navbar img{
+        filter: invert(66%) sepia(39%) saturate(4079%) hue-rotate(73deg) brightness(101%) contrast(98%);
+    }
+    #home{
+        width: 100%;
+        height: 90vh;
+       padding-top: 10vh;
+        display: flex;
+    }
+    .navbar-lateral{
+        background-color: var(--cor-secundaria);
+        height: 100%;
+        width: 300px;
+        margin-left: auto;
+        
+    }
+    .logo-navbar-lateral{
+    width: 90%;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    }
+    .imagem-logo-navabar-lateral{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagem-logo-lateral{
+        width: 55px;
+        height: 55px;
+    }
+    .texto-logo-navbar-lateral{
+        color: var(--cor-destaque3);
+    font-family:'mortal','Courier New', Courier, monospace;
+    }
+    .links-lateral-caixa{
+        width: 90%;
+        height: 50%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    .caixa-link-lateral{
+        width: 200px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        line-height: 30px;
+    }
+    .caixa-link-lateral a{
+        width: 200px;
+        height: 30px;
+        background-color: var(--cor-destaque1);
+        text-align: center;
+        line-height: 30px;
+        text-decoration: none;
+        font-family:'mortal','Courier New', Courier, monospace;
+        color: var(--cor-destaque3);
+        border-radius: 15px;
+        transition: 1.0s;
+    }
+    .caixa-link-lateral a:hover{
+        background-color: var(--cor-destaque2);
+    }
